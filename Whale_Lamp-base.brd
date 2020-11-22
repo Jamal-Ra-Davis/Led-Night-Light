@@ -226,6 +226,12 @@
 <hole x="0" y="-47.5" drill="1.5"/>
 <circle x="0" y="65" radius="2.5" width="0.1524" layer="21"/>
 <circle x="0" y="65" radius="1.5" width="0.1524" layer="21"/>
+<text x="57.281721875" y="-9.323921875" size="1.27" layer="22" rot="MR15">GND</text>
+<text x="56.69349375" y="-11.5728125" size="1.27" layer="22" rot="MR15">RX</text>
+<text x="56.205265625" y="-14.1217" size="1.27" layer="22" rot="MR15">TX</text>
+<text x="55.617034375" y="-16.6705875" size="1.27" layer="22" rot="MR15">SDA</text>
+<text x="55.02880625" y="-19.219478125" size="1.27" layer="22" rot="MR15">SCL</text>
+<text x="54.340578125" y="-21.668365625" size="1.27" layer="22" rot="MR15">5V</text>
 </plain>
 <libraries>
 <library name="adafruit">

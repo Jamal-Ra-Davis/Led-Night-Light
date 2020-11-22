@@ -12407,7 +12407,7 @@ Manufacturer: Hirose&lt;br&gt;
 </classes>
 <parts>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="USER_LED" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
+<part name="USER_LED" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="BLUE"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA3_L" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -12470,12 +12470,12 @@ Manufacturer: Hirose&lt;br&gt;
 <part name="LED34" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="_5050N" package3d_urn="urn:adsk.eagle:package:6240961/1"/>
 <part name="LED35" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="_5050N" package3d_urn="urn:adsk.eagle:package:6240961/1"/>
 <part name="LED36" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="_5050N" package3d_urn="urn:adsk.eagle:package:6240961/1"/>
-<part name="R_SDA" library="adafruit" deviceset="R-US_" device="R0402" value="510"/>
-<part name="R_SCL" library="adafruit" deviceset="R-US_" device="R0402" value="510"/>
+<part name="R_SDA" library="adafruit" deviceset="R-US_" device="R0402" value="2.2K"/>
+<part name="R_SCL" library="adafruit" deviceset="R-US_" device="R0402" value="2.2K"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2-REDUNDANT" package3d_urn="urn:adsk.eagle:package:40167/1"/>
-<part name="PWR_LED" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
+<part name="PWR_LED" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="ORANGE"/>
 <part name="GND31" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R_PLED" library="adafruit" deviceset="R-US_" device="R0402" value="10K"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -12488,9 +12488,8 @@ Manufacturer: Hirose&lt;br&gt;
 <part name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="PHOTOTRANSISTOR" device="PT17-21C-L41-TR8" package3d_urn="urn:adsk.eagle:package:38464/1" value="20mA/30V"/>
 <part name="R_IRPT" library="adafruit" deviceset="R-US_" device="R0402" value="10K"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="IR_LED" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
+<part name="IR_LED" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="IR"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R_IRLED" library="adafruit" deviceset="R-US_" device="R0402" value="190"/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK"/>
 <part name="JST-COIL_IN1" library="adafruit" deviceset="JST_2PIN" device="-THM-RA"/>
 <part name="FP6291" library="IC-packages_BIG-pack V1.0" deviceset="FP6291" device=""/>
@@ -12516,6 +12515,7 @@ Manufacturer: Hirose&lt;br&gt;
 <part name="R_D-" library="adafruit" deviceset="R-US_" device="R0402" value="22"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_FEMALE-SMT"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R_IRLED" library="adafruit" deviceset="R-US_" device="R0603" value="200"/>
 </parts>
 <sheets>
 <sheet>
@@ -12771,10 +12771,6 @@ GPIO_CTL:
 <instance part="GND5" gate="1" x="220.98" y="114.3" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="223.52" y="111.76" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R_IRLED" gate="G$1" x="220.98" y="134.62" smashed="yes" rot="MR90">
-<attribute name="NAME" x="222.4786" y="130.81" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="217.678" y="130.81" size="1.778" layer="96" rot="MR90"/>
-</instance>
 <instance part="JP2" gate="G$1" x="154.94" y="-30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="152.4" y="-33.02" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="157.48" y="-33.02" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
@@ -12866,6 +12862,7 @@ GPIO_CTL:
 <instance part="GND16" gate="1" x="149.86" y="12.7" smashed="yes">
 <attribute name="VALUE" x="147.32" y="10.16" size="1.778" layer="96"/>
 </instance>
+<instance part="R_IRLED" gate="G$1" x="220.98" y="134.62" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -14189,14 +14186,14 @@ GPIO_CTL:
 <segment>
 <pinref part="IR_LED" gate="G$1" pin="A"/>
 <wire x1="220.98" y1="129.54" x2="220.98" y2="127" width="0.1524" layer="91"/>
-<pinref part="R_IRLED" gate="G$1" pin="1"/>
+<pinref part="R_IRLED" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="IR_LED" class="0">
 <segment>
 <wire x1="220.98" y1="139.7" x2="220.98" y2="142.24" width="0.1524" layer="91"/>
 <label x="220.98" y="142.24" size="1.27" layer="95" rot="MR90" xref="yes"/>
-<pinref part="R_IRLED" gate="G$1" pin="2"/>
+<pinref part="R_IRLED" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <label x="7.62" y="86.36" size="1.778" layer="95"/>

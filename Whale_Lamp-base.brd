@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -189,8 +189,8 @@
 <plain>
 <circle x="0" y="0" radius="62.5" width="0.1524" layer="20"/>
 <circle x="0" y="0" radius="20" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="33.5" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="47.5" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="33.5" width="1" layer="21"/>
+<circle x="0" y="0" radius="47.5" width="1" layer="21"/>
 <wire x1="-7" y1="3" x2="-1" y2="3" width="0.1524" layer="21"/>
 <wire x1="-1" y1="3" x2="0" y2="3" width="0.1524" layer="21"/>
 <wire x1="-7" y1="-3" x2="-7" y2="3" width="0.1524" layer="21"/>
@@ -202,28 +202,30 @@
 <wire x1="7" y1="3" x2="7" y2="-3" width="0.1524" layer="21"/>
 <wire x1="7" y1="-3" x2="1" y2="-3" width="0.1524" layer="21"/>
 <wire x1="1" y1="-3" x2="0" y2="-3" width="0.1524" layer="21"/>
-<wire x1="0" y1="-20" x2="0" y2="-62.5" width="0.1524" layer="21"/>
-<wire x1="0" y1="62.5" x2="0" y2="20" width="0.1524" layer="21"/>
-<wire x1="20" y1="0" x2="62.5" y2="0" width="0.1524" layer="21"/>
-<wire x1="-62.5" y1="0" x2="-20" y2="0" width="0.1524" layer="21"/>
-<wire x1="9.999996875" y1="-17.32050625" x2="31.249996875" y2="-54.1265875" width="0.1524" layer="21"/>
-<wire x1="-31.249996875" y1="54.1265875" x2="-9.999996875" y2="17.32050625" width="0.1524" layer="21"/>
-<wire x1="17.32050625" y1="9.999996875" x2="54.1265875" y2="31.249996875" width="0.1524" layer="21"/>
-<wire x1="-54.1265875" y1="-31.249996875" x2="-17.32050625" y2="-9.999996875" width="0.1524" layer="21"/>
-<wire x1="-10" y1="-17.32050625" x2="-31.25" y2="-54.1265875" width="0.1524" layer="21"/>
-<wire x1="31.25" y1="54.1265875" x2="10" y2="17.32050625" width="0.1524" layer="21"/>
-<wire x1="17.32050625" y1="-10" x2="54.1265875" y2="-31.25" width="0.1524" layer="21"/>
-<wire x1="-54.1265875" y1="31.25" x2="-17.32050625" y2="10" width="0.1524" layer="21"/>
+<wire x1="0" y1="-20" x2="0" y2="-62.5" width="1" layer="21"/>
+<wire x1="0" y1="62.5" x2="0" y2="20" width="1" layer="21"/>
+<wire x1="20" y1="0" x2="62.5" y2="0" width="1" layer="21"/>
+<wire x1="-62.5" y1="0" x2="-20" y2="0" width="1" layer="21"/>
+<wire x1="9.999996875" y1="-17.32050625" x2="31.249996875" y2="-54.1265875" width="1" layer="21"/>
+<wire x1="-31.249996875" y1="54.1265875" x2="-9.999996875" y2="17.32050625" width="1" layer="21"/>
+<wire x1="17.32050625" y1="9.999996875" x2="54.1265875" y2="31.249996875" width="1" layer="21"/>
+<wire x1="-54.1265875" y1="-31.249996875" x2="-17.32050625" y2="-9.999996875" width="1" layer="21"/>
+<wire x1="-10" y1="-17.32050625" x2="-31.25" y2="-54.1265875" width="1" layer="21"/>
+<wire x1="31.25" y1="54.1265875" x2="10" y2="17.32050625" width="1" layer="21"/>
+<wire x1="17.32050625" y1="-10" x2="54.1265875" y2="-31.25" width="1" layer="21"/>
+<wire x1="-54.1265875" y1="31.25" x2="-17.32050625" y2="10" width="1" layer="21"/>
 <circle x="0" y="0" radius="21" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="19.35" width="0.1" layer="21"/>
 <wire x1="-1" y1="3" x2="-1" y2="-3" width="0.1524" layer="21"/>
 <wire x1="1" y1="3" x2="1" y2="-3" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="14.95" width="0.1" layer="21"/>
-<rectangle x1="-121.5" y1="-222.5" x2="-120" y2="-220" layer="1"/>
-<rectangle x1="-117.8" y1="-222.5" x2="-116.3" y2="-220" layer="1"/>
 <circle x="0" y="0" radius="65" width="0.1" layer="21"/>
-<wire x1="-8" y1="-3" x2="-8" y2="4" width="0.1524" layer="21"/>
-<wire x1="-8" y1="4" x2="7" y2="4" width="0.1524" layer="21"/>
+<hole x="-47.5" y="0" drill="1.5"/>
+<hole x="0" y="47.5" drill="1.5"/>
+<hole x="47.5" y="0" drill="1.5"/>
+<hole x="0" y="-47.5" drill="1.5"/>
+<circle x="0" y="65" radius="2.5" width="0.1524" layer="21"/>
+<circle x="0" y="65" radius="1.5" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -375,6 +377,23 @@ JST PH 2-pin thru-home side entry</description>
 <text x="-2.7" y="-3.8" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="0.486" y="-2.096" size="1.4224" layer="21" ratio="12">+</text>
 <text x="-1.429" y="-1.896" size="1.4224" layer="21" ratio="12">-</text>
+</package>
+<package name="R0603">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="-0.889" y="0.889" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.889" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 </packages>
 </library>
@@ -1072,84 +1091,84 @@ Please make sure your boards conform to these design rules.
 </autorouter>
 <elements>
 <element name="C1" library="adafruit" package="C0402" value="0.1uF" x="-4.5" y="-15" smashed="yes" rot="R270">
-<attribute name="NAME" x="-3.738" y="-14.365" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="-4.235" y="-17.638" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-6.405" y="-14.365" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C16" library="SparkFun" package="0402-CAP" value="18pF" x="2" y="-15" smashed="yes" rot="R90">
-<attribute name="NAME" x="1.3015" y="-15.889" size="0.4064" layer="25" rot="R90"/>
+<attribute name="NAME" x="1.7985" y="-16.611" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="3.143" y="-16.0795" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="C17" library="SparkFun" package="0402-CAP" value="18pF" x="-3" y="-15" smashed="yes" rot="R270">
-<attribute name="NAME" x="-2.3015" y="-14.111" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="-2.5985" y="-18.089" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-4.143" y="-13.9205" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C2" library="adafruit" package="C0402" value="0.1uF" x="3.5" y="-3" smashed="yes">
-<attribute name="NAME" x="2.865" y="-2.238" size="1.27" layer="25"/>
+<attribute name="NAME" x="4.365" y="-4.238" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="2.865" y="-4.905" size="1.27" layer="27"/>
 </element>
 <element name="C3" library="adafruit" package="C0402" value="0.1uF" x="-3.5" y="-3" smashed="yes" rot="R180">
-<attribute name="NAME" x="-2.865" y="-3.762" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-3.935" y="-2.438" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="-2.865" y="-1.095" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C4" library="adafruit" package="C0402" value="0.1uF" x="6.5" y="-9.5" smashed="yes">
-<attribute name="NAME" x="5.865" y="-8.738" size="1.27" layer="25"/>
+<attribute name="NAME" x="8.738" y="-10.035" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="5.865" y="-11.405" size="1.27" layer="27"/>
 </element>
 <element name="CORTEX_SWD1" library="samd21-temp" package="2X5-PTH-1.27MM" value="CORTEX_DEBUGPTH" x="-14.16" y="-6.34" smashed="yes" rot="R270">
-<attribute name="NAME" x="-12.763" y="-3.292" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="-11.763" y="-2.292" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="-15.557" y="-3.419" size="0.8128" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="C_UCAP" library="adafruit" package="C0603" value="2.2uF" x="-7" y="-7.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="-6.111" y="-8.262" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-5.411" y="-5.662" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-6.111" y="-5.468" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="WS2812B-NARROW" package3d_urn="urn:adsk.eagle:package:6240961/1" value="WS2812B_5050N" x="25.597034375" y="6.858703125" smashed="yes" rot="R105">
 <attribute name="NAME" x="23.1597" y="9.821325" size="0.8128" layer="25" ratio="10" rot="R15"/>
 </element>
 <element name="Q1" library="adafruit" package="SOT23" value="" x="17.395728125" y="3.69635" smashed="yes" rot="R195">
-<attribute name="NAME" x="19.72885625" y="2.349315625" size="1.27" layer="25" rot="R195"/>
+<attribute name="NAME" x="16.150684375" y="2.22885625" size="0.6096" layer="25" rot="R285"/>
 <attribute name="VALUE" x="18.414065625" y="7.2562125" size="1.27" layer="27" rot="R195"/>
 </element>
 <element name="Q3" library="adafruit" package="NX3225" value="16MHz" x="-0.5" y="-15" smashed="yes"/>
 <element name="R_LED" library="adafruit" package="R0402" value="510" x="4.5" y="-11" smashed="yes" rot="R180">
-<attribute name="NAME" x="5.135" y="-11.762" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="5.635" y="-11.762" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="5.135" y="-8.968" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R_LED_EN1" library="adafruit" package="R0402" value="510" x="16.489865625" y="7.077090625" smashed="yes" rot="R195">
-<attribute name="NAME" x="17.300453125" y="6.505415625" size="1.27" layer="25" rot="R195"/>
+<attribute name="NAME" x="13.199546875" y="6.994584375" size="0.6096" layer="25" rot="R15"/>
 <attribute name="VALUE" x="16.5773" y="9.20420625" size="1.27" layer="27" rot="R195"/>
 </element>
 <element name="R_LED_PD1" library="adafruit" package="R0402" value="10K" x="16.774559375" y="6.014575" smashed="yes" rot="R15">
-<attribute name="NAME" x="15.963971875" y="6.586271875" size="1.27" layer="25" rot="R15"/>
+<attribute name="NAME" x="18.463971875" y="6.086271875" size="0.6096" layer="25" rot="R15"/>
 <attribute name="VALUE" x="16.6871125" y="3.887465625" size="1.27" layer="27" rot="R15"/>
 </element>
 <element name="R_LED_TERM" library="adafruit" package="R0402" value="510" x="27.56" y="3.51" smashed="yes" rot="R195">
-<attribute name="NAME" x="28.37058125" y="2.9383125" size="1.27" layer="25" rot="R195"/>
+<attribute name="NAME" x="29.87058125" y="3.4383125" size="0.6096" layer="25" rot="R195"/>
 <attribute name="VALUE" x="27.647440625" y="5.637109375" size="1.27" layer="27" rot="R195"/>
 </element>
 <element name="R_RST" library="adafruit" package="R0402" value="10K" x="-4.5" y="-12" smashed="yes" rot="R270">
-<attribute name="NAME" x="-3.738" y="-11.365" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="-3.838" y="-10.965" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="-6.532" y="-11.365" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U0" library="SparkFun-IC-Microcontroller" package="QFN-44" value="32U4" x="0" y="-7.5" smashed="yes">
-<attribute name="NAME" x="0" y="-3.055" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="-4.3" y="-4.455" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="IC-10828" x="26.67" y="-13.85" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="0" y="-12.58" size="0.6096" layer="27" font="vector" ratio="20" align="bottom-center"/>
 </element>
-<element name="USER_LED" library="adafruit" package="CHIPLED_0603" value="" x="7.5" y="-11" smashed="yes" rot="R270">
-<attribute name="NAME" x="6.23" y="-10.365" size="1.27" layer="25"/>
+<element name="USER_LED" library="adafruit" package="CHIPLED_0603" value="BLUE" x="7.5" y="-11" smashed="yes" rot="R270">
+<attribute name="NAME" x="8.93" y="-11.265" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="6.23" y="-12.905" size="1.27" layer="27"/>
 </element>
 <element name="C8" library="adafruit" package="C0603" value="4.7uF" x="29.4607375" y="7.893978125" smashed="yes" rot="R285">
-<attribute name="NAME" x="29.96668125" y="8.94990625" size="1.27" layer="25" rot="R285"/>
+<attribute name="NAME" x="30.46668125" y="8.74990625" size="0.6096" layer="25" rot="R285"/>
 <attribute name="VALUE" x="27.267884375" y="8.226765625" size="1.27" layer="27" rot="R285"/>
 </element>
 <element name="C9" library="adafruit" package="C0603" value="4.7uF" x="42.983696875" y="11.517446875" smashed="yes" rot="R285">
-<attribute name="NAME" x="43.48964375" y="12.573375" size="1.27" layer="25" rot="R285"/>
+<attribute name="NAME" x="44.08964375" y="12.273375" size="0.6096" layer="25" rot="R285"/>
 <attribute name="VALUE" x="40.790846875" y="11.850234375" size="1.27" layer="27" rot="R285"/>
 </element>
 <element name="C11" library="adafruit" package="C0603" value="4.7uF" x="56.506659375" y="15.1409125" smashed="yes" rot="R285">
-<attribute name="NAME" x="57.012603125" y="16.196840625" size="1.27" layer="25" rot="R285"/>
+<attribute name="NAME" x="57.412603125" y="16.096840625" size="0.6096" layer="25" rot="R285"/>
 <attribute name="VALUE" x="54.313809375" y="15.4737" size="1.27" layer="27" rot="R285"/>
 </element>
 <element name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="WS2812B-NARROW" package3d_urn="urn:adsk.eagle:package:6240961/1" value="WS2812B_5050N" x="18.738328125" y="18.738328125" smashed="yes" rot="R135">
@@ -1237,7 +1256,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="-39.884353125" y="34.94521875" size="0.8128" layer="25" ratio="10" rot="R135"/>
 </element>
 <element name="LED30" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="WS2812B-NARROW" package3d_urn="urn:adsk.eagle:package:6240961/1" value="WS2812B_5050N" x="-52.64295625" y="14.1056375" smashed="yes" rot="R255">
-<attribute name="NAME" x="-13.678625" y="9.02575625" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="-52.178625" y="10.42575625" size="0.8128" layer="25" ratio="10" rot="R165"/>
 </element>
 <element name="LED31" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="WS2812B-NARROW" package3d_urn="urn:adsk.eagle:package:6240961/1" value="WS2812B_5050N" x="-52.64295625" y="-14.1056375" smashed="yes" rot="R285">
 <attribute name="NAME" x="-50.205621875" y="-17.06825625" size="0.8128" layer="25" ratio="10" rot="R195"/>
@@ -1257,43 +1276,43 @@ Please make sure your boards conform to these design rules.
 <element name="LED36" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="WS2812B-NARROW" package3d_urn="urn:adsk.eagle:package:6240961/1" value="WS2812B_5050N" x="52.64295625" y="-14.1056375" smashed="yes" rot="R75">
 <attribute name="NAME" x="52.013475" y="-10.32126875" size="0.8128" layer="25" ratio="10" rot="R345"/>
 </element>
-<element name="R_SDA" library="adafruit" package="R0402" value="510" x="7.5" y="-12.5" smashed="yes">
-<attribute name="NAME" x="6.86499375" y="-11.737996875" size="1.27" layer="25"/>
+<element name="R_SDA" library="adafruit" package="R0402" value="2.2K" x="7.5" y="-12.5" smashed="yes">
+<attribute name="NAME" x="9.16499375" y="-12.737996875" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="6.86499375" y="-14.531996875" size="1.27" layer="27"/>
 </element>
-<element name="R_SCL" library="adafruit" package="R0402" value="510" x="7.5" y="-14.5" smashed="yes">
-<attribute name="NAME" x="6.864990625" y="-13.7379875" size="1.27" layer="25"/>
+<element name="R_SCL" library="adafruit" package="R0402" value="2.2K" x="7.5" y="-14.5" smashed="yes">
+<attribute name="NAME" x="9.164990625" y="-14.8379875" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="6.864990625" y="-16.5319875" size="1.27" layer="27"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X06" package3d_urn="urn:adsk.eagle:package:22472/2" value="" x="57.955546875" y="-15.529140625" smashed="yes" rot="R75">
-<attribute name="NAME" x="54.1971375" y="-22.489771875" size="1.27" layer="25" ratio="10" rot="R75"/>
+<attribute name="NAME" x="56.989771875" y="-23.8028625" size="1.27" layer="25" ratio="10" rot="R165"/>
 <attribute name="POPULARITY" value="79" x="57.955546875" y="-15.529140625" size="1.778" layer="27" rot="R75" display="off"/>
 <attribute name="VALUE" x="59.050159375" y="-23.711246875" size="1.27" layer="27" rot="R75"/>
 </element>
 <element name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:40167/1" value="MOMENTARY-SWITCH-SPST-SMD-5.2-REDUNDANT" x="-8" y="-12.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="-5.333" y="-12.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="-8" y="-16.333" size="0.8128" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="SWCH-08247" x="-8" y="-12.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_SKU" value="COM-08720" x="-8" y="-12.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-10.667" y="-12.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="PWR_LED" library="adafruit" package="CHIPLED_0603" value="" x="-17.5" y="-3" smashed="yes" rot="R270">
-<attribute name="NAME" x="-18.77" y="-2.365" size="1.27" layer="25"/>
+<element name="PWR_LED" library="adafruit" package="CHIPLED_0603" value="ORANGE" x="-17.5" y="-3" smashed="yes" rot="R270">
+<attribute name="NAME" x="-18.77" y="-4.365" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="-18.77" y="-4.905" size="1.27" layer="27"/>
 </element>
 <element name="R_PLED" library="adafruit" package="R0402" value="10K" x="-17.5" y="-1.5" smashed="yes">
-<attribute name="NAME" x="-18.135" y="-0.738" size="1.27" layer="25"/>
+<attribute name="NAME" x="-19.135" y="-0.738" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="-18.135" y="-3.532" size="1.27" layer="27"/>
 </element>
 <element name="Q4" library="adafruit" package="SOT23" value="" x="7" y="7" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.095" y="5.095" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="9.595" y="6.495" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="10.175" y="5.095" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R_COIL_PD" library="adafruit" package="R0402" value="10K" x="8.8" y="4.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="9.435" y="3.838" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="10.465" y="4.362" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="9.435" y="6.632" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R_COIL_EN" library="adafruit" package="R0402" value="510" x="8.8" y="3.1" smashed="yes">
-<attribute name="NAME" x="8.165" y="3.862" size="1.27" layer="25"/>
+<attribute name="NAME" x="10.465" y="2.762" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="8.165" y="1.068" size="1.27" layer="27"/>
 </element>
 <element name="Q5" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SOT23-3" package3d_urn="urn:adsk.eagle:package:38446/1" value="2.5A/30V/105mΩ" x="3" y="7" smashed="yes" rot="R90">
@@ -1302,11 +1321,11 @@ Please make sure your boards conform to these design rules.
 <attribute name="VALUE" x="3" y="8.651" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R_LED_PD3" library="adafruit" package="R0402" value="10K" x="5" y="9" smashed="yes" rot="R180">
-<attribute name="NAME" x="5.635" y="8.238" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="6.765" y="8.862" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="5.635" y="11.032" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R_LED_EN3" library="adafruit" package="R0402" value="510" x="5" y="5" smashed="yes">
-<attribute name="NAME" x="4.365" y="5.762" size="1.27" layer="25"/>
+<attribute name="NAME" x="2.665" y="3.762" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="4.365" y="2.968" size="1.27" layer="27"/>
 </element>
 <element name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="PT17-21C-L41-TR8" package3d_urn="urn:adsk.eagle:package:38464/1" value="20mA/30V" x="-3.5" y="0" smashed="yes" rot="R180">
@@ -1315,97 +1334,97 @@ Please make sure your boards conform to these design rules.
 <attribute name="VALUE" x="-4.262" y="-0.016" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R_IRPT" library="adafruit" package="R0402" value="10K" x="-5" y="0" smashed="yes" rot="R90">
-<attribute name="NAME" x="-5.762" y="-0.635" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="-5.762" y="-1.135" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-2.968" y="-0.635" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="IR_LED" library="adafruit" package="CHIPLED_0603" value="" x="3.5" y="0" smashed="yes" rot="R180">
-<attribute name="NAME" x="4.135" y="1.27" size="1.27" layer="25" rot="R270"/>
+<element name="IR_LED" library="adafruit" package="CHIPLED_0603" value="IR" x="3.5" y="0" smashed="yes" rot="R180">
+<attribute name="NAME" x="2.865" y="-1.27" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="1.595" y="1.27" size="1.27" layer="27" rot="R270"/>
-</element>
-<element name="R_IRLED" library="adafruit" package="R0402" value="190" x="5" y="0" smashed="yes" rot="R270">
-<attribute name="NAME" x="5.762" y="0.635" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="2.968" y="0.635" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_NO-SILK" value="JUMPER-SMT_2_NO_NO-SILK" x="3" y="9.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="4.143" y="9.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="1.857" y="9.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="JST-COIL_IN1" library="adafruit" package="JST-PH-2-THM-RA" value="" x="4" y="12" smashed="yes">
-<attribute name="NAME" x="1.3" y="8.2" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="1.3" y="13.2" size="0.6096" layer="25" font="vector"/>
 </element>
 <element name="FP6291" library="IC-packages_BIG-pack V1.0" package="SOT23-6L" value="FP6291" x="-11.8705875" y="3.0170375" smashed="yes" rot="R180">
-<attribute name="NAME" x="-9.9655875" y="1.112040625" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-9.487959375" y="1.6655875" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-9.9655875" y="6.192040625" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C5" library="adafruit" package="C0603" value="4.7uF" x="-15" y="0.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="-14.111" y="-0.262" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-16.611" y="0.738" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-14.111" y="2.532" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C6" library="adafruit" package="C0603" value="4.7uF" x="-15" y="2.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="-14.111" y="1.838" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-16.611" y="2.838" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-14.111" y="4.632" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C7" library="adafruit" package="C0603" value="4.7uF" x="-15" y="4.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="-14.111" y="3.938" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-16.611" y="4.938" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-14.111" y="6.732" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C12" library="adafruit" package="C0402" value="0.1uF" x="-15" y="6.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="-14.365" y="5.538" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-16.665" y="6.538" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-14.365" y="8.205" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R_OC" library="adafruit" package="R0402" value="10K" x="-11.8705875" y="0.017040625" smashed="yes">
-<attribute name="NAME" x="-12.5055875" y="0.779040625" size="1.27" layer="25"/>
+<attribute name="NAME" x="-12.8055875" y="-1.220959375" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="-12.5055875" y="-2.014959375" size="1.27" layer="27"/>
 </element>
 <element name="D_BOOST" library="adafruit" package="SOD-123" value="" x="-7.5" y="11.5" smashed="yes">
-<attribute name="NAME" x="-8.6" y="13" size="0.4064" layer="25"/>
+<attribute name="NAME" x="-8.6" y="12.5" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="-8.6" y="10.216" size="0.4064" layer="27"/>
 </element>
 <element name="C13" library="adafruit" package="C0603" value="4.7uF" x="-3.12940625" y="9.9829625" smashed="yes" rot="R270">
-<attribute name="NAME" x="-2.36740625" y="10.8719625" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="-3.8719625" y="7.63259375" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="-5.16140625" y="10.8719625" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C15" library="adafruit" package="C0603" value="4.7uF" x="-1.02940625" y="9.9829625" smashed="yes" rot="R270">
-<attribute name="NAME" x="-0.26740625" y="10.8719625" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="-1.7719625" y="7.63259375" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="-3.06140625" y="10.8719625" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C18" library="adafruit" package="C0603" value="4.7uF" x="-3.12940625" y="12.982959375" smashed="yes" rot="R90">
-<attribute name="NAME" x="-3.89140625" y="12.093959375" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="-3.606040625" y="14.69140625" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="-1.09740625" y="12.0939625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C19" library="adafruit" package="C0402" value="0.1uF" x="-1.02940625" y="12.982959375" smashed="yes" rot="R90">
-<attribute name="NAME" x="-1.79140625" y="12.3479625" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="-1.6520375" y="14.69140625" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="0.875590625" y="12.3479625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="L3" library="inductor-neosid" library_urn="urn:adsk.eagle:library:241" package="MS50" package3d_urn="urn:adsk.eagle:package:14699/1" value="3.3uH" x="-7" y="7.5" smashed="yes">
 <attribute name="MF" value="" x="-7" y="7.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-7" y="7.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-8.8" y="5.8" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="-5.3" y="4.7" size="0.8128" layer="25" rot="R180"/>
 <attribute name="OC_FARNELL" value="unknown" x="-7" y="7.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-7" y="7.5" size="1.778" layer="27" display="off"/>
 <attribute name="POPULARITY" value="0" x="-7" y="7.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-4.4" y="5.8" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="R2_BOOST" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="13K" x="-12.87645625" y="8.89778125" smashed="yes" rot="R270">
-<attribute name="NAME" x="-11.98745" y="9.786775" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="-14.11255" y="7.113225" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-14.90845" y="9.786784375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R1_BOOST" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="180K" x="-10.776459375" y="8.89778125" smashed="yes" rot="R90">
-<attribute name="NAME" x="-11.66545625" y="8.00878125" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="-9.06545625" y="6.60878125" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-8.74445625" y="8.008778125" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R_D+" library="adafruit" package="R0402" value="22" x="-55.2" y="-0.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="-54.565" y="-0.962" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-52.765" y="-0.962" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-54.565" y="1.832" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R_D-" library="adafruit" package="R0402" value="22" x="-55.2" y="0.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="-54.565" y="0.138" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="-53.265" y="2.438" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-54.565" y="2.932" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="USB-B-MICRO-SMD" value="" x="-60.5" y="0" smashed="yes">
-<attribute name="NAME" x="-61.77" y="4.699" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-11752" x="-70" y="2" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-61.77" y="-4.699" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
+<element name="J1" library="SparkFun-Connectors" package="USB-B-MICRO-SMD" value="" x="-61.2" y="0.1" smashed="yes">
+<attribute name="NAME" x="-58.97" y="4.799" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="PROD_ID" value="CONN-11752" x="-70.7" y="2.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-62.47" y="-4.599" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
+</element>
+<element name="R_IRLED" library="adafruit" package="R0603" value="200" x="5.5" y="0" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.811" y="-1.589" size="0.6096" layer="25" rot="R90"/>
+<attribute name="VALUE" x="7.532" y="-0.889" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -1467,7 +1486,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="J1" pad="SHIELD3"/>
 <contactref element="J1" pad="SHIELD2"/>
 <via x="1.5" y="-3" extent="1-16" drill="0.35"/>
-<via x="-1.5" y="0" extent="1-16" drill="0.35"/>
+<via x="-1" y="1" extent="1-16" drill="0.35"/>
 <via x="-9.5" y="-6" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="MOSI">
@@ -1556,11 +1575,15 @@ Please make sure your boards conform to these design rules.
 <wire x1="-54.55" y1="-0.2" x2="-53.7" y2="-0.2" width="0.254" layer="1"/>
 <wire x1="-53.7" y1="-0.2" x2="-53.5" y2="0" width="0.254" layer="1"/>
 <via x="-53.5" y="0" extent="1-16" drill="0.35"/>
-<wire x1="-53.5" y1="0" x2="-11.5" y2="0" width="0.254" layer="16"/>
-<wire x1="-11.5" y1="0" x2="-8" y2="-3.5" width="0.254" layer="16"/>
+<wire x1="-8" y1="-3.5" x2="-11.5" y2="0" width="0.254" layer="16"/>
 <via x="-8" y="-3.5" extent="1-16" drill="0.35"/>
 <wire x1="-3.4" y1="-6.5" x2="-5" y2="-6.5" width="0.254" layer="1"/>
 <wire x1="-5" y1="-6.5" x2="-8" y2="-3.5" width="0.254" layer="1"/>
+<wire x1="-53.5" y1="0" x2="-50.5" y2="0" width="0.254" layer="16"/>
+<wire x1="-50.5" y1="0" x2="-49" y2="-1.5" width="0.254" layer="16"/>
+<wire x1="-46" y1="-1.5" x2="-49" y2="-1.5" width="0.254" layer="16"/>
+<wire x1="-11.5" y1="0" x2="-44.5" y2="0" width="0.254" layer="16"/>
+<wire x1="-44.5" y1="0" x2="-46" y2="-1.5" width="0.254" layer="16"/>
 </signal>
 <signal name="D-">
 <contactref element="U0" pad="3"/>
@@ -1568,11 +1591,15 @@ Please make sure your boards conform to these design rules.
 <wire x1="-54.55" y1="0.9" x2="-53.6" y2="0.9" width="0.254" layer="1"/>
 <wire x1="-53.6" y1="0.9" x2="-53.5" y2="1" width="0.254" layer="1"/>
 <via x="-53.5" y="1" extent="1-16" drill="0.35"/>
-<wire x1="-53.5" y1="1" x2="-11.5" y2="1" width="0.254" layer="16"/>
-<wire x1="-11.5" y1="1" x2="-7" y2="-3.5" width="0.254" layer="16"/>
+<wire x1="-7" y1="-3.5" x2="-11.5" y2="1" width="0.254" layer="16"/>
 <via x="-7" y="-3.5" extent="1-16" drill="0.35"/>
 <wire x1="-3.4" y1="-6" x2="-4.5" y2="-6" width="0.254" layer="1"/>
 <wire x1="-4.5" y1="-6" x2="-7" y2="-3.5" width="0.254" layer="1"/>
+<wire x1="-53.5" y1="1" x2="-50.5" y2="1" width="0.254" layer="16"/>
+<wire x1="-50.5" y1="1" x2="-49" y2="2.5" width="0.254" layer="16"/>
+<wire x1="-46" y1="2.5" x2="-49" y2="2.5" width="0.254" layer="16"/>
+<wire x1="-11.5" y1="1" x2="-44.5" y2="1" width="0.254" layer="16"/>
+<wire x1="-44.5" y1="1" x2="-46" y2="2.5" width="0.254" layer="16"/>
 </signal>
 <signal name="!RESET">
 <contactref element="U0" pad="13"/>
@@ -1939,9 +1966,6 @@ Please make sure your boards conform to these design rules.
 <wire x1="-17.2" y1="55" x2="-42.3" y2="39.2" width="0.254" layer="1" curve="30"/>
 <wire x1="-42.3" y1="39.2" x2="-56.3" y2="12.7" width="0.254" layer="1" curve="30"/>
 <wire x1="-55.3" y1="-17.2" x2="-39.2" y2="-42.5" width="0.254" layer="1" curve="30"/>
-<wire x1="-57.2" y1="1.3" x2="-57.775" y2="1.3" width="0.254" layer="1"/>
-<wire x1="-54.84495625" y1="12.2627625" x2="-54.84495625" y2="3.65504375" width="0.254" layer="1"/>
-<wire x1="-54.84495625" y1="3.65504375" x2="-57.2" y2="1.3" width="0.254" layer="1"/>
 <wire x1="-39.2" y1="-42.5" x2="-12.7" y2="-56.3" width="0.254" layer="1" curve="30"/>
 <wire x1="-12.7" y1="-56.3" x2="17.2" y2="-55.1" width="0.254" layer="1" curve="30"/>
 <wire x1="17.2" y1="-55.1" x2="42.3" y2="-39" width="0.254" layer="1" curve="30"/>
@@ -1959,7 +1983,6 @@ Please make sure your boards conform to these design rules.
 <via x="10" y="-12.5" extent="1-16" drill="0.35"/>
 <wire x1="10" y1="-12.5" x2="8.15" y2="-12.5" width="0.254" layer="1"/>
 <wire x1="8.15" y1="-12.5" x2="8.15" y2="-14.5" width="0.254" layer="1"/>
-<wire x1="-54.84495625" y1="3.65504375" x2="-54.8" y2="2.5" width="0.254" layer="1"/>
 <via x="-54.8" y="2.5" extent="1-16" drill="0.35"/>
 <wire x1="-54.8" y1="2.5" x2="-52.072828125" y2="-16.33474375" width="0.254" layer="16" curve="20"/>
 <wire x1="42.5" y1="-9" x2="55.99589375" y2="-13.513809375" width="0.254" layer="16"/>
@@ -1972,6 +1995,11 @@ Please make sure your boards conform to these design rules.
 <wire x1="-26.582584375" y1="-9.555678125" x2="-26.582584375" y2="-7.582584375" width="0.508" layer="1"/>
 <wire x1="-26.582584375" y1="-7.582584375" x2="-26" y2="-7" width="0.508" layer="1"/>
 <wire x1="-26" y1="-7" x2="-21.5" y2="-6" width="0.508" layer="1"/>
+<wire x1="-54.8" y1="2.5" x2="-56" y2="2.5" width="0.254" layer="1"/>
+<wire x1="-58.475" y1="1.4" x2="-57.1" y2="1.4" width="0.254" layer="1"/>
+<wire x1="-57.1" y1="1.4" x2="-56" y2="2.5" width="0.254" layer="1"/>
+<wire x1="-54.84495625" y1="12.2627625" x2="-54.84495625" y2="2.54495625" width="0.254" layer="1"/>
+<wire x1="-54.84495625" y1="2.54495625" x2="-54.8" y2="2.5" width="0.254" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED1" pad="2-DOUT"/>
@@ -2394,20 +2422,21 @@ Please make sure your boards conform to these design rules.
 </signal>
 <signal name="N$48">
 <contactref element="IR_LED" pad="A"/>
-<contactref element="R_IRLED" pad="1"/>
-<wire x1="3.5" y1="0.75" x2="4.9" y2="0.75" width="0.254" layer="1"/>
-<wire x1="4.9" y1="0.75" x2="5" y2="0.65" width="0.254" layer="1"/>
+<contactref element="R_IRLED" pad="2"/>
+<wire x1="5.5" y1="0.85" x2="3.6" y2="0.85" width="0.254" layer="1"/>
+<wire x1="3.6" y1="0.85" x2="3.5" y2="0.75" width="0.254" layer="1"/>
 </signal>
 <signal name="IR_LED">
-<contactref element="R_IRLED" pad="2"/>
 <contactref element="U0" pad="30"/>
 <wire x1="5.5" y1="-6.5" x2="3.4" y2="-6.5" width="0.254" layer="1"/>
-<wire x1="5" y1="-0.65" x2="5" y2="-2" width="0.254" layer="1"/>
 <via x="5" y="-2" extent="1-16" drill="0.35"/>
 <wire x1="5" y1="-2" x2="6" y2="-3" width="0.254" layer="16"/>
 <wire x1="6" y1="-3" x2="6" y2="-7" width="0.254" layer="16"/>
 <via x="6" y="-7" extent="1-16" drill="0.35"/>
 <wire x1="6" y1="-7" x2="5.5" y2="-6.5" width="0.254" layer="1"/>
+<contactref element="R_IRLED" pad="1"/>
+<wire x1="5.5" y1="-0.85" x2="5.5" y2="-1.5" width="0.254" layer="1"/>
+<wire x1="5.5" y1="-1.5" x2="5" y2="-2" width="0.254" layer="1"/>
 </signal>
 <signal name="PCH_GATE">
 <contactref element="Q4" pad="3"/>
@@ -2460,14 +2489,14 @@ Please make sure your boards conform to these design rules.
 <signal name="N$51">
 <contactref element="R_D-" pad="2"/>
 <contactref element="J1" pad="D-"/>
-<wire x1="-57.775" y1="0.65" x2="-56.1" y2="0.65" width="0.254" layer="1"/>
-<wire x1="-56.1" y1="0.65" x2="-55.85" y2="0.9" width="0.254" layer="1"/>
+<wire x1="-58.475" y1="0.75" x2="-56" y2="0.75" width="0.254" layer="1"/>
+<wire x1="-56" y1="0.75" x2="-55.85" y2="0.9" width="0.254" layer="1"/>
 </signal>
 <signal name="N$53">
 <contactref element="R_D+" pad="2"/>
 <contactref element="J1" pad="D+"/>
-<wire x1="-57.775" y1="0" x2="-56.05" y2="0" width="0.254" layer="1"/>
-<wire x1="-56.05" y1="0" x2="-55.85" y2="-0.2" width="0.254" layer="1"/>
+<wire x1="-58.475" y1="0.1" x2="-56.15" y2="0.1" width="0.254" layer="1"/>
+<wire x1="-56.15" y1="0.1" x2="-55.85" y2="-0.2" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>

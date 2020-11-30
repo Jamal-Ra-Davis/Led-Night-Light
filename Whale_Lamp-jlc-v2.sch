@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9534,15 +9534,15 @@ Created by Upverter.com</description>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA3_L" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C16" library="SparkFun" deviceset="CAP" device="0402-CAP" value="18pF"/>
-<part name="C17" library="SparkFun" deviceset="CAP" device="0402-CAP" value="18pF"/>
+<part name="C16" library="SparkFun" deviceset="CAP" device="0402-CAP" value="12pF"/>
+<part name="C17" library="SparkFun" deviceset="CAP" device="0402-CAP" value="12pF"/>
 <part name="GND29" library="SparkFun" deviceset="GND" device=""/>
 <part name="CORTEX_SWD1" library="samd21-temp" deviceset="CORTEX_DEBUG" device="PTH" value="CORTEX_DEBUGPTH"/>
 <part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R_D+" library="adafruit" deviceset="R-US_" device="R0402" value="22"/>
 <part name="R_D-" library="adafruit" deviceset="R-US_" device="R0402" value="22"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="Q3" library="adafruit" deviceset="XTAL-4" device="-3225" value="16MHz"/>
+<part name="Q3" library="adafruit" deviceset="XTAL-4" device="-3225" value="8MHz"/>
 <part name="R_LED" library="adafruit" deviceset="R-US_" device="R0402" value="510"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -9960,17 +9960,9 @@ GPIO_CTL:
 <pinref part="GND29" gate="1" pin="GND"/>
 <wire x1="-81.28" y1="-236.22" x2="-81.28" y2="-238.76" width="0.1524" layer="91"/>
 <junction x="-81.28" y="-236.22"/>
-<pinref part="Q3" gate="G$1" pin="G2"/>
-<wire x1="-68.58" y1="-223.52" x2="-81.28" y2="-223.52" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="-223.52" x2="-81.28" y2="-220.98" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="-81.28" y1="-220.98" x2="-78.74" y2="-220.98" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="-236.22" x2="-81.28" y2="-233.68" width="0.1524" layer="91"/>
-<junction x="-81.28" y="-223.52"/>
-<pinref part="Q3" gate="G$1" pin="G1"/>
-<wire x1="-81.28" y1="-233.68" x2="-81.28" y2="-223.52" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="-233.68" x2="-81.28" y2="-233.68" width="0.1524" layer="91"/>
-<junction x="-81.28" y="-233.68"/>
+<wire x1="-81.28" y1="-236.22" x2="-81.28" y2="-220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q4" gate="G$1" pin="S"/>
@@ -10271,11 +10263,12 @@ GPIO_CTL:
 <pinref part="U0" gate="G$1" pin="PD6(ADC9)"/>
 </segment>
 </net>
-<net name="PC7" class="0">
+<net name="SS_RX" class="0">
 <segment>
-<wire x1="-17.78" y1="-236.22" x2="-7.62" y2="-236.22" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-236.22" x2="5.08" y2="-236.22" width="0.1524" layer="91"/>
 <label x="-15.24" y="-236.22" size="1.778" layer="95"/>
 <pinref part="U0" gate="G$1" pin="PC7"/>
+<label x="5.08" y="-236.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PB0" class="0">
@@ -10698,7 +10691,7 @@ GPIO_CTL:
 <wire x1="-58.42" y1="-337.82" x2="-71.12" y2="-337.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="POW_LED" class="0">
+<net name="SS_TX" class="0">
 <segment>
 <label x="-15.24" y="-215.9" size="1.778" layer="95"/>
 <pinref part="U0" gate="G$1" pin="PC6"/>

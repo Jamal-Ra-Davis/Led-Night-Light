@@ -9,25 +9,35 @@ typedef enum{OFF, CHRG0, CHRG1, CHRG2, CHRG3} animation_states_t;
 
 animation_states_t state = OFF;
 
+
 void set_led(int x, int y, CRGB color)
 {
-  leds[x + 12*y] = color;
+  int idx = x + 12*y;
+  /*
+  if (idx >= size)
+    return;
+  */
+  leds[idx] = color;
 }
 CRGB get_led(int x, int y)
 {
   return leds[x + 12*y];
 }
 
-#define NUM_ANIMATIONS 3
+#define NUM_ANIMATIONS 5
 Animation0 a0(leds, NUM_LEDS, 10);
 Animation1 a1(leds, NUM_LEDS, 5);
 Animation2 a2(leds, NUM_LEDS, 1);
+Animation3 a3(leds, NUM_LEDS, 2);
+Animation4 a4(leds, NUM_LEDS, 15);
 Animation *animations[NUM_ANIMATIONS] = {
   &a0,
   &a1,
-  &a2  
+  &a2,
+  &a3,
+  &a4,
 };
-static int animation_idx = 2;
+static int animation_idx = 4;
 
 int prev_ir_det; 
 void setup() 
@@ -49,8 +59,9 @@ void setup()
 
   pinMode(IR_DET, INPUT);
   prev_ir_det = digitalRead(IR_DET);
-  
-  animations[animation_idx]->reset();
+
+  for (int i=0; i<NUM_ANIMATIONS; i++)
+    animations[i]->reset();
   
   FastLED.addLeds<NEOPIXEL, LED_DOUT>(leds, NUM_LEDS);
 }
